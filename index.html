@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Top 20 SEO Tools to Dominate Google (2025)</title>
+<meta name="description" content="Khám phá 20 công cụ SEO hàng đầu giúp bạn tối ưu từ khóa, backlink, on-page và nội dung để thống trị Google." />
+
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --card: #111317;
+      --muted: #98a2b3;
+      --text: #e6e7eb;
+      --accent: #00e0a3;
+      --accent-2: #7c5cff;
+      --chip: #1a1d24;
+      --border: #232632;
+      --danger: #f35b5b;
+    }
+    * { box-sizing: border-box }
+    html, body { height: 100% }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: radial-gradient(1200px 800px at 100% -10%, rgba(124,92,255,0.15), transparent 60%),
+                  radial-gradient(900px 600px at -10% 10%, rgba(0,224,163,0.15), transparent 60%),
+                  var(--bg);
+    }
+    .wrap { max-width: 1200px; padding: 32px 20px 80px; margin: 0 auto }
+    header { display:flex; flex-direction:column; gap:16px; margin-bottom: 16px }
+    h1 { font-size: clamp(28px, 4vw, 44px); margin: 0; letter-spacing: .2px }
+    .sub { color: var(--muted) }
+    .panel { background: rgba(255,255,255,0.02); border:1px solid var(--border); padding: 16px; border-radius: 16px; display:flex; flex-direction:column; gap:12px; backdrop-filter: blur(4px) }
+    .controls { display:grid; grid-template-columns: 1fr; gap:10px }
+    @media (min-width: 768px){ .controls { grid-template-columns: 1fr 320px } }
+    .search { display:flex; align-items:center; gap:10px; background: var(--card); border:1px solid var(--border); border-radius: 12px; padding: 10px 12px }
+    .search input { flex:1; background: transparent; border:0; outline: none; color: var(--text); font-size: 16px }
+    .chips { display:flex; flex-wrap: wrap; gap:8px }
+    .chip { padding:8px 12px; border:1px solid var(--border); background: var(--chip); color: var(--text); border-radius: 999px; font-size: 13px; cursor: pointer; user-select: none }
+    .chip.active { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #0a0b0f; border-color: transparent; font-weight: 700 }
+    .muted { color: var(--muted); font-size: 14px }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-top: 16px }
+    .card { background: var(--card); border:1px solid var(--border); border-radius: 16px; padding: 16px; display:flex; flex-direction:column; gap:10px; transition: transform .15s ease, box-shadow .15s ease }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.35) }
+    .card-head { display:flex; align-items:center; gap:12px }
+    .logo { width:42px; height:42px; border-radius: 12px; background: linear-gradient(135deg, rgba(124,92,255,.25), rgba(0,224,163,.25)); border:1px solid var(--border); display:grid; place-items:center; font-weight: 800 }
+    .badge { font-size: 12px; padding: 4px 8px; border-radius: 999px; border:1px solid var(--border); background: #0f1117; color: #c9cbd2 }
+    .name { font-size: 18px; font-weight: 800; letter-spacing: .2px }
+    .desc { color: #c9cbd2; font-size: 14px; line-height: 1.5 }
+    .cats { display:flex; flex-wrap: wrap; gap:6px }
+    .cat { font-size: 11px; padding: 4px 8px; background: #0f1116; border:1px solid var(--border); border-radius: 8px; color:#9aa3af }
+    .cta { display:flex; gap:8px; margin-top: 4px }
+    .btn { appearance: none; border: 1px solid var(--border); background: #0f1117; color: var(--text); padding: 10px 12px; border-radius: 12px; font-weight: 700; font-size: 14px; cursor: pointer; text-decoration: none; text-align:center; flex:1 }
+    .btn.primary { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #0b0c10; border-color: transparent }
+    .btn:active{ transform: translateY(1px) }
+    .label { font-size:12px; color: var(--muted) }
+    footer { margin-top: 24px; color: var(--muted); font-size: 13px }
+    .count { font-weight:700 }
+    .hidden { display:none !important }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>SEO Mafia Toolbox ⚡️</h1>
+      <div class="sub">20 công cụ SEO hot — mỗi app có link <strong>Đăng ký (affiliate)</strong> bên dưới. Cứ click là tới chỗ sign‑up gắn ref. Thay <code>YOUR_ID</code> bằng mã của mày.</div>
+    </header>
+
+    <section class="panel" aria-label="bộ lọc">
+      <div class="controls">
+        <div class="search">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.2-4.2" stroke="#98a2b3" stroke-width="2" stroke-linecap="round"/><circle cx="11" cy="11" r="7" stroke="#98a2b3" stroke-width="2"/></svg>
+          <input id="q" type="search" placeholder="Tìm tool theo tên, mô tả, tag…" />
+        </div>
+        <div class="muted"><span class="count" id="count">20</span> apps • Filter theo tag bên dưới • Tất cả link là ví dụ — nhớ thay affiliate ID.</div>
+      </div>
+      <div class="chips" id="chips">
+        <!-- chips sẽ render từ JS -->
+      </div>
+    </section>
+
+    <section class="grid" id="grid" aria-label="danh sách tools">
+      <!-- 20 CARDS -->
+      
+      <!-- 1. Rank Math -->
+      <article class="card" data-name="Rank Math" data-cats="WordPress,On-page,Internal Links" data-aff="https://your-domain.com/go/rankmath?aff=YOUR_ID" data-review="https://your-domain.com/review/rankmath">
+        <div class="card-head"><div class="logo">RM</div><div><div class="name">Rank Math</div><div class="badge">WordPress SEO</div></div></div>
+        <div class="desc">Plugin SEO WordPress all‑in‑one: schema, redirect, sitemaps, AI content, tự động tối ưu on‑page.</div>
+        <div class="cats"><span class="cat">WordPress</span><span class="cat">On‑page</span><span class="cat">Internal Links</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/rankmath?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/rankmath">Xem review</a></div>
+        <div class="label">ID: <code>rankmath</code></div>
+      </article>
+
+      <!-- 2. Yoast SEO -->
+      <article class="card" data-name="Yoast SEO" data-cats="WordPress,On-page" data-aff="https://your-domain.com/go/yoast?aff=YOUR_ID" data-review="https://your-domain.com/review/yoast">
+        <div class="card-head"><div class="logo">YS</div><div><div class="name">Yoast SEO</div><div class="badge">WordPress SEO</div></div></div>
+        <div class="desc">Tối ưu on‑page cổ điển: meta, breadcrumbs, schema cơ bản, readability score.</div>
+        <div class="cats"><span class="cat">WordPress</span><span class="cat">On‑page</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/yoast?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/yoast">Xem review</a></div>
+        <div class="label">ID: <code>yoast-seo</code></div>
+      </article>
+
+      <!-- 3. Ahrefs -->
+      <article class="card" data-name="Ahrefs" data-cats="All-in-one,Backlinks,Keyword" data-aff="https://your-domain.com/go/ahrefs?aff=YOUR_ID" data-review="https://your-domain.com/review/ahrefs">
+        <div class="card-head"><div class="logo">A</div><div><div class="name">Ahrefs</div><div class="badge">All‑in‑one</div></div></div>
+        <div class="desc">Backlink index mạnh, nghiên cứu keyword, content gap, theo dõi thứ hạng.</div>
+        <div class="cats"><span class="cat">Backlinks</span><span class="cat">Keyword</span><span class="cat">All‑in‑one</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/ahrefs?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/ahrefs">Xem review</a></div>
+        <div class="label">ID: <code>ahrefs</code></div>
+      </article>
+
+      <!-- 4. Semrush -->
+      <article class="card" data-name="Semrush" data-cats="All-in-one,Backlinks,Keyword,Content" data-aff="https://your-domain.com/go/semrush?aff=YOUR_ID" data-review="https://your-domain.com/review/semrush">
+        <div class="card-head"><div class="logo">SR</div><div><div class="name">Semrush</div><div class="badge">All‑in‑one</div></div></div>
+        <div class="desc">Nghiên cứu đối thủ, PPC, topic research, content optimizer, rank tracking.</div>
+        <div class="cats"><span class="cat">All‑in‑one</span><span class="cat">Keyword</span><span class="cat">Content</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/semrush?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/semrush">Xem review</a></div>
+        <div class="label">ID: <code>semrush</code></div>
+      </article>
+
+      <!-- 5. Moz Pro -->
+      <article class="card" data-name="Moz Pro" data-cats="All-in-one,Keyword,Audit" data-aff="https://your-domain.com/go/moz?aff=YOUR_ID" data-review="https://your-domain.com/review/moz">
+        <div class="card-head"><div class="logo">MZ</div><div><div class="name">Moz Pro</div><div class="badge">All‑in‑one</div></div></div>
+        <div class="desc">Chỉ số DA/PA, nghiên cứu keyword, site audit thân thiện cho team content.</div>
+        <div class="cats"><span class="cat">Keyword</span><span class="cat">Audit</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/moz?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/moz">Xem review</a></div>
+        <div class="label">ID: <code>moz-pro</code></div>
+      </article>
+
+      <!-- 6. Mangools -->
+      <article class="card" data-name="Mangools (KWFinder)" data-cats="Keyword,SERP" data-aff="https://your-domain.com/go/mangools?aff=YOUR_ID" data-review="https://your-domain.com/review/mangools">
+        <div class="card-head"><div class="logo">MG</div><div><div class="name">Mangools (KWFinder)</div><div class="badge">Keyword Suite</div></div></div>
+        <div class="desc">KWFinder, SERPChecker, LinkMiner, SiteProfiler — nhẹ, dễ xài.</div>
+        <div class="cats"><span class="cat">Keyword</span><span class="cat">SERP</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/mangools?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/mangools">Xem review</a></div>
+        <div class="label">ID: <code>mangools</code></div>
+      </article>
+
+      <!-- 7. SE Ranking -->
+      <article class="card" data-name="SE Ranking" data-cats="Rank Tracking,Audit,Keyword" data-aff="https://your-domain.com/go/seranking?aff=YOUR_ID" data-review="https://your-domain.com/review/se-ranking">
+        <div class="card-head"><div class="logo">SER</div><div><div class="name">SE Ranking</div><div class="badge">All‑in‑one</div></div></div>
+        <div class="desc">Giá mềm, rank tracking chuẩn, site audit ổn, báo cáo client đẹp.</div>
+        <div class="cats"><span class="cat">Rank Tracking</span><span class="cat">Audit</span><span class="cat">Keyword</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/seranking?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/se-ranking">Xem review</a></div>
+        <div class="label">ID: <code>se-ranking</code></div>
+      </article>
+
+      <!-- 8. Surfer SEO -->
+      <article class="card" data-name="Surfer SEO" data-cats="Content,On-page" data-aff="https://your-domain.com/go/surfer?aff=YOUR_ID" data-review="https://your-domain.com/review/surfer-seo">
+        <div class="card-head"><div class="logo">SF</div><div><div class="name">Surfer SEO</div><div class="badge">Content Optimization</div></div></div>
+        <div class="desc">Nội dung chuẩn SERP: NLP, density, structure score, brief tự động.</div>
+        <div class="cats"><span class="cat">Content</span><span class="cat">On‑page</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/surfer?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/surfer-seo">Xem review</a></div>
+        <div class="label">ID: <code>surfer-seo</code></div>
+      </article>
+
+      <!-- 9. Screaming Frog -->
+      <article class="card" data-name="Screaming Frog" data-cats="Technical,Audit" data-aff="https://your-domain.com/go/screamingfrog?aff=YOUR_ID" data-review="https://your-domain.com/review/screaming-frog">
+        <div class="card-head"><div class="logo">SFg</div><div><div class="name">Screaming Frog SEO Spider</div><div class="badge">Crawler</div></div></div>
+        <div class="desc">Crawler máy tính trứ danh để audit: status, canonicals, hreflang, schema…</div>
+        <div class="cats"><span class="cat">Technical</span><span class="cat">Audit</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/screamingfrog?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/screaming-frog">Xem review</a></div>
+        <div class="label">ID: <code>screaming-frog</code></div>
+      </article>
+
+      <!-- 10. Sitebulb -->
+      <article class="card" data-name="Sitebulb" data-cats="Technical,Audit" data-aff="https://your-domain.com/go/sitebulb?aff=YOUR_ID" data-review="https://your-domain.com/review/sitebulb">
+        <div class="card-head"><div class="logo">SB</div><div><div class="name">Sitebulb</div><div class="badge">Crawler</div></div></div>
+        <div class="desc">Crawler + visualization đẹp mắt, báo cáo trực quan cho team/khách hàng.</div>
+        <div class="cats"><span class="cat">Technical</span><span class="cat">Audit</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/sitebulb?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/sitebulb">Xem review</a></div>
+        <div class="label">ID: <code>sitebulb</code></div>
+      </article>
+
+      <!-- 11. Majestic -->
+      <article class="card" data-name="Majestic" data-cats="Backlinks" data-aff="https://your-domain.com/go/majestic?aff=YOUR_ID" data-review="https://your-domain.com/review/majestic">
+        <div class="card-head"><div class="logo">MJ</div><div><div class="name">Majestic</div><div class="badge">Backlink Index</div></div></div>
+        <div class="desc">Trust Flow / Citation Flow, phân tích mạng lưới liên kết, lịch sử backlink.</div>
+        <div class="cats"><span class="cat">Backlinks</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/majestic?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/majestic">Xem review</a></div>
+        <div class="label">ID: <code>majestic</code></div>
+      </article>
+
+      <!-- 12. Serpstat -->
+      <article class="card" data-name="Serpstat" data-cats="All-in-one,Keyword,Backlinks" data-aff="https://your-domain.com/go/serpstat?aff=YOUR_ID" data-review="https://your-domain.com/review/serpstat">
+        <div class="card-head"><div class="logo">SS</div><div><div class="name">Serpstat</div><div class="badge">All‑in‑one</div></div></div>
+        <div class="desc">Suite SEO đầy đủ: keyword, audit, backlinks, PPC research — giá dễ chịu.</div>
+        <div class="cats"><span class="cat">All‑in‑one</span><span class="cat">Keyword</span><span class="cat">Backlinks</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/serpstat?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/serpstat">Xem review</a></div>
+        <div class="label">ID: <code>serpstat</code></div>
+      </article>
+
+      <!-- 13. Ubersuggest -->
+      <article class="card" data-name="Ubersuggest" data-cats="Keyword,Content" data-aff="https://your-domain.com/go/ubersuggest?aff=YOUR_ID" data-review="https://your-domain.com/review/ubersuggest">
+        <div class="card-head"><div class="logo">US</div><div><div class="name">Ubersuggest</div><div class="badge">Keyword/Content</div></div></div>
+        <div class="desc">Ý tưởng từ khóa, content suggestions, backlink overview — cho marketer mới.</div>
+        <div class="cats"><span class="cat">Keyword</span><span class="cat">Content</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/ubersuggest?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/ubersuggest">Xem review</a></div>
+        <div class="label">ID: <code>ubersuggest</code></div>
+      </article>
+
+      <!-- 14. KeywordTool.io -->
+      <article class="card" data-name="KeywordTool.io" data-cats="Keyword,SERP" data-aff="https://your-domain.com/go/keywordtool?aff=YOUR_ID" data-review="https://your-domain.com/review/keywordtool">
+        <div class="card-head"><div class="logo">KT</div><div><div class="name">KeywordTool.io</div><div class="badge">Keyword</div></div></div>
+        <div class="desc">Gợi ý từ khóa từ Google, YouTube, Amazon… mạnh về long‑tail, quốc ngữ.</div>
+        <div class="cats"><span class="cat">Keyword</span><span class="cat">SERP</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/keywordtool?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/keywordtool">Xem review</a></div>
+        <div class="label">ID: <code>keywordtool</code></div>
+      </article>
+
+      <!-- 15. Long Tail Pro -->
+      <article class="card" data-name="Long Tail Pro" data-cats="Keyword" data-aff="https://your-domain.com/go/longtailpro?aff=YOUR_ID" data-review="https://your-domain.com/review/long-tail-pro">
+        <div class="card-head"><div class="logo">LTP</div><div><div class="name">Long Tail Pro</div><div class="badge">Keyword</div></div></div>
+        <div class="desc">Tập trung long‑tail và độ khó từ khóa, phù hợp niche site/affiliate.</div>
+        <div class="cats"><span class="cat">Keyword</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/longtailpro?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/long-tail-pro">Xem review</a></div>
+        <div class="label">ID: <code>long-tail-pro</code></div>
+      </article>
+
+      <!-- 16. AnswerThePublic -->
+      <article class="card" data-name="AnswerThePublic" data-cats="Keyword,Content" data-aff="https://your-domain.com/go/answerthepublic?aff=YOUR_ID" data-review="https://your-domain.com/review/answerthepublic">
+        <div class="card-head"><div class="logo">ATP</div><div><div class="name">AnswerThePublic</div><div class="badge">Topic Ideas</div></div></div>
+        <div class="desc">Ý tưởng câu hỏi/vấn đề người dùng tìm — tuyệt cho content brief.</div>
+        <div class="cats"><span class="cat">Keyword</span><span class="cat">Content</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/answerthepublic?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/answerthepublic">Xem review</a></div>
+        <div class="label">ID: <code>answer-the-public</code></div>
+      </article>
+
+      <!-- 17. GTmetrix -->
+      <article class="card" data-name="GTmetrix" data-cats="Speed,Technical" data-aff="https://your-domain.com/go/gtmetrix?aff=YOUR_ID" data-review="https://your-domain.com/review/gtmetrix">
+        <div class="card-head"><div class="logo">GT</div><div><div class="name">GTmetrix</div><div class="badge">Performance</div></div></div>
+        <div class="desc">Đo tốc độ trang + waterfall, phân tích LCP/CLS/TTFB hỗ trợ tối ưu Core Web Vitals.</div>
+        <div class="cats"><span class="cat">Speed</span><span class="cat">Technical</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/gtmetrix?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/gtmetrix">Xem review</a></div>
+        <div class="label">ID: <code>gtmetrix</code></div>
+      </article>
+
+      <!-- 18. Frase -->
+      <article class="card" data-name="Frase" data-cats="Content,On-page" data-aff="https://your-domain.com/go/frase?aff=YOUR_ID" data-review="https://your-domain.com/review/frase">
+        <div class="card-head"><div class="logo">FR</div><div><div class="name">Frase</div><div class="badge">Content Optimization</div></div></div>
+        <div class="desc">Tạo brief, outline, tối ưu nội dung theo top SERP. Hợp team content mỏng.</div>
+        <div class="cats"><span class="cat">Content</span><span class="cat">On‑page</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/frase?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/frase">Xem review</a></div>
+        <div class="label">ID: <code>frase</code></div>
+      </article>
+
+      <!-- 19. Clearscope -->
+      <article class="card" data-name="Clearscope" data-cats="Content,On-page" data-aff="https://your-domain.com/go/clearscope?aff=YOUR_ID" data-review="https://your-domain.com/review/clearscope">
+        <div class="card-head"><div class="logo">CL</div><div><div class="name">Clearscope</div><div class="badge">Content Optimization</div></div></div>
+        <div class="desc">Chuẩn hóa content theo ý định tìm kiếm, gợi ý thuật ngữ, điểm số tối ưu.</div>
+        <div class="cats"><span class="cat">Content</span><span class="cat">On‑page</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/clearscope?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/clearscope">Xem review</a></div>
+        <div class="label">ID: <code>clearscope</code></div>
+      </article>
+
+      <!-- 20. Link Whisper -->
+      <article class="card" data-name="Link Whisper" data-cats="WordPress,Internal Links" data-aff="https://your-domain.com/go/linkwhisper?aff=YOUR_ID" data-review="https://your-domain.com/review/link-whisper">
+        <div class="card-head"><div class="logo">LW</div><div><div class="name">Link Whisper</div><div class="badge">WP Internal Links</div></div></div>
+        <div class="desc">Tự động gợi ý internal link cho WordPress, tăng crawl depth & topical authority.</div>
+        <div class="cats"><span class="cat">WordPress</span><span class="cat">Internal Links</span></div>
+        <div class="cta"><a class="btn primary" target="_blank" rel="nofollow noopener" href="https://your-domain.com/go/linkwhisper?aff=YOUR_ID">Đăng ký (affiliate)</a><a class="btn" target="_blank" rel="noopener" href="https://your-domain.com/review/link-whisper">Xem review</a></div>
+        <div class="label">ID: <code>link-whisper</code></div>
+      </article>
+
+    </section>
+
+    <footer>
+      ⚠️ Lưu ý: Các link đang để dạng ví dụ <code>https://your-domain.com/go/xxx?aff=YOUR_ID</code>. Đổi sang domain + mã affiliate thật của mày. Muốn tao auto tiêm <code>utm_source=matcha-mafia</code> hay đổi toàn bộ template link thì bảo.
+    </footer>
+  </div>
+
+  <script>
+    // ====== Categories pool (render chips) ======
+    const CATS = [
+      'WordPress','On-page','Internal Links','All-in-one','Backlinks','Keyword','SERP','Audit','Content','Technical','Rank Tracking','Speed'
+    ];
+    const chips = document.getElementById('chips');
+    const active = new Set();
+    function renderChips(){
+      chips.innerHTML = '';
+      // Add an 'Tất cả' chip to clear filters
+      const all = document.createElement('span');
+      all.className = 'chip';
+      all.textContent = 'Tất cả';
+      all.onclick = ()=>{ active.clear(); sync(); update(); };
+      chips.appendChild(all);
+      CATS.forEach(c => {
+        const el = document.createElement('span');
+        el.className = 'chip';
+        el.textContent = c;
+        el.dataset.cat = c;
+        el.onclick = () => {
+          if(active.has(c)) active.delete(c); else active.add(c);
+          sync();
+          update();
+        };
+        chips.appendChild(el);
+      });
+      sync();
+    }
+    function sync(){
+      [...chips.querySelectorAll('.chip')].forEach(el => {
+        const c = el.dataset.cat;
+        el.classList.toggle('active', c && active.has(c));
+      });
+    }
+
+    // ====== Filtering ======
+    const q = document.getElementById('q');
+    const grid = document.getElementById('grid');
+    const count = document.getElementById('count');
+    q.addEventListener('input', update);
+
+    function matchCard(card, terms, actives){
+      const name = card.dataset.name.toLowerCase();
+      const desc = card.querySelector('.desc').textContent.toLowerCase();
+      const cats = (card.dataset.cats || '').toLowerCase();
+      const textOk = !terms || terms.every(t => name.includes(t) || desc.includes(t) || cats.includes(t));
+      const catOk = actives.size === 0 || [...actives].every(c => cats.includes(c.toLowerCase()));
+      return textOk && catOk;
+    }
+
+    function update(){
+      const terms = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      const cards = [...grid.querySelectorAll('.card')];
+      let shown = 0;
+      cards.forEach(card => {
+        const ok = matchCard(card, terms, active);
+        card.classList.toggle('hidden', !ok);
+        if(ok) shown++;
+      });
+      count.textContent = shown;
+    }
+
+    // ====== Init ======
+    renderChips();
+    update();
+  </script>
+</body>
+</html>
